@@ -161,3 +161,15 @@ Then open a notebook and select the Python environment created by `uv sync` as t
   Widely used conventions for readable Python code.
 - [**uv Documentation**](https://docs.astral.sh/uv/): Official documentation for
   dependency management and reproducible Python environments.
+
+## My work
+
+Every "Check your understanding" exercise, code-along cell and challenge is
+solved in the root notebooks (not in `solution/`), with short comments.
+All 15 notebooks were run top to bottom in a fresh kernel, outputs kept.
+
+- Notebooks that ask for `input()` use a simulated typed value, so they run
+  without a person at the keyboard (the lesson cells do the same).
+- Intentional error examples are shown with `try` / `except` or
+  `compile()`, so the error message is visible and the run does not stop.
+- Done as a delegated pass by Claude on 2026-11-25; owner review pending.
